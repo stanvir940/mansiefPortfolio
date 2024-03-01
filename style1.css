@@ -1,0 +1,28 @@
+/* Apply basic styles to the entire table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Style table headers */
+th {
+    background-color: #f2f2f2;
+}
+
+/* Style alternating rows for better readability */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Style table cells */
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+    background-color: #e5f7ff;
+}
